@@ -1,0 +1,30 @@
+.App {
+  background-color: rgb(243, 192, 96);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: rgb(77, 70, 68);
+}
+.msg {
+  color: rgb(230, 101, 27);
+  font-size: 2rem;
+}
+select {
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  transform: translate(50%, 50%);
+}
+select :active {
+  outline: none;
+}
+select :hover {
+  outline: none;
+}
+
+.header option,
+.header select {
+  background-color: gray;
+}
